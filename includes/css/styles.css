@@ -5,6 +5,7 @@
 
 #features {
 	text-align: center;
+
 }
 
 #features img {
@@ -13,6 +14,33 @@
 
 #featuresHeading {
   color:white;
+  font-family: 'Fruktur', sans-serif;
+}
+.panel-title {
+  color:black;
+  font-family: 'Fruktur', sans-serif;
+}
+
+#myModal h4 {
+	color:black;
+}
+
+#myModal p {
+	color:black;
+}
+.panel p{
+	color:black;
+  font-family: 'Fruktur', sans-serif;
+}
+
+.well p{
+	color:black;
+  font-family: 'Fruktur', sans-serif;
+}
+
+
+#moreinfo , #tab1 , #tab2 ,h3 ,h4 , p {
+	color:white;
   font-family: 'Fruktur', sans-serif;
 }
 
@@ -136,11 +164,11 @@ ul.unstyled {
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
 
-	.thumbnail .price {
+	.thumbnail {
 		font-size: 14px;
 	}
 
-	.thumbnail .price sup {
+	.thumbnail sup {
 		font-size: 10px;
 	}
 

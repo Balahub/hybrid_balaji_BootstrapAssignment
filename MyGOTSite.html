@@ -4,16 +4,14 @@
       <!-- Website Title & Description for Search Engine purposes -->
       <title>My Game of thrones Webpage using Bootstrap 3</title>
       <meta name="description" content="">
-      <!-- Mobile viewport optimized -->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+     <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       <!-- Bootstrap CSS -->
       <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
       <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
       <!-- Custom CSS -->
       <link href="includes/css/styles.css" rel="stylesheet">
-      <!-- Include Modernizr in the head, before any other Javascript -->
-      <script src="includes/js/modernizr-2.6.2.min.js"></script>
-   </head>
+ </head>
    <body>
       <!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
       <div class="container" id="main">
@@ -152,7 +150,7 @@
                   <p>You are now an official GOT Fanatic.</p>
                </div>
                <!-- end alert -->
-               <!-- Visible only on small devices -->
+               <!-- Visible only on Mobile -->
                <div class="well well-small visible-sm">
                   <a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Call now</a>
                </div>
@@ -225,8 +223,93 @@
             <!-- end feature -->
          </div>
          <!-- end features -->
+         <div class="row" id="moreInfo">
+   				<div class="col-sm-6">
+   					<h3>My Tabbable Content</h3>
+   					<div class="tabbable">
+   						<ul class="nav nav-tabs">
+   							<li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+   							<li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+   						</ul>
+   						<div class="tab-content">
+   							<div class="tab-pane active" id="tab1">
+   								<h4><span class="glyphicon glyphicon-map-marker"></span> GOT Location <small>A Map of the Seven Kingdoms</small></h4>
+   								<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://quartermaester.info/;output=embed"></iframe>
+   								<p>The Seven Kingdoms is the name given to the realm that controls most of the continent of Westeros and numerous offshore islands, ruled by the King of the Andals and the First Men from the Red Keep in the city of King's Landing.</p>
+   								<p>Its name dates back to the time prior to the War of Conquest, during which seven independent kingdoms existed in the continent. The realm actually consists of nine distinct regions, the remaining two being formally established after the Conquest.</p>
+   							</div><!-- end tab-pane -->
+
+   							<div class="tab-pane" id="tab2">
+   								<img src="images/GOT_thumbnail.jpg" class="thumbnail pull-left" alt="GOT Thumbnail">
+                  <p>The Seven Kingdoms is the name given to the realm that controls most of the continent of Westeros and numerous offshore islands, ruled by the King of the Andals and the First Men from the Red Keep in the city of King's Landing.</p>
+   								<p>Its name dates back to the time prior to the War of Conquest, during which seven independent kingdoms existed in the continent. The realm actually consists of nine distinct regions, the remaining two being formally established after the Conquest.</p>
+   								<hr>
+
+   								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>  Modal Demo!</a>
+   								<div class="modal fade" id="myModal">
+   									<div class="modal-dialog">
+   										<div class="modal-content">
+   											<div class="modal-header">
+   												<button class="close" data-dismiss="modal">&times;</button>
+   												<h4 class="modal-title">A Modal Window</h4>
+   											</div><!-- end modal-header -->
+   											<div class="modal-body">
+   												<h4>The Seven Kingdoms</h4>
+   												<p>The Seven Kingdoms is the name given to the realm that controls most of the continent of Westeros and numerous offshore islands, ruled by the King of the Andals and the First Men from the Red Keep in the city of King's Landing.</p>
+   											</div><!-- end modal-body -->
+   											<div class="modal-footer">
+   												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+   											</div><!-- end modal-footer -->
+   										</div><!-- end modal-content -->
+   									</div><!-- end modal-dialog -->
+   								</div><!-- end myModal -->
+   							</div><!-- end tab-pane -->
+   						</div><!-- end tab-content -->
+   					</div><!-- end tabbable -->
+   				</div><!-- end col-sm-6 -->
+
+   				<div class="col-sm-6">
+   					<h3>Some Additional Info</h3>
+   					<p>When Aegon the Conqueror embarked on the conquest of the continent from his seat on Dragonstone he had to contend with seven independelms. These were:</p>
+   					<h4>The Seven Kingdoms</h4>
+   					<div class="list-group">
+   						<a href="#" class="list-group-item">
+   							<h4 class="list-group-item-heading">Kingdom of the North</h4>
+   							<p class="list-group-item-text">The Kingdom of the North was one of the independent kingdoms of Westeros until the War of Conquest. It was founded during the time of the First Men by Bran the Builder, the first King in the North.</p>
+   						</a>
+   						<a href="#" class="list-group-item">
+   							<h4 class="list-group-item-heading">Kingdom of the Mountain and the Vale</h4>
+   							<p class="list-group-item-text">During the time the First Men controlled the continent, the dynasty of the Mountain Kings ruled the Vale from their stronghold, the Eyrie</p>
+   						</a>
+   						<a href="#" class="list-group-item">
+   							<h4 class="list-group-item-heading">Kingdom of the Isles and Rivers</h4>
+   							<p class="list-group-item-text">Steel-cut oats are whole grain groats which have been cut into pieces. They are commonly used in Scotland and Ireland to make porridge.</p>
+   						</a>
+              <a href="#" class="list-group-item">
+   							<h4 class="list-group-item-heading">Kingdom of the Rock</h4>
+   							<p class="list-group-item-text">It was founded during the time of the First Men by House Casterly, the builders of Casterly Rock.</p>
+   						</a>
+              <a href="#" class="list-group-item">
+   							<h4 class="list-group-item-heading">Kingdom of the Stormlands</h4>
+   							<p class="list-group-item-text">It was founded during the time of the First Men by Durran Godsgrief, the first Storm King, who was said to have taken Elenei, daughter of the god of the sea and the goddess of the wind, as wife and to have built the formidable castle of Storm's End.</p>
+   						</a>
+              <a href="#" class="list-group-item">
+   							<h4 class="list-group-item-heading">Kingdom of the Reach</h4>
+   							<p class="list-group-item-text">It was founded during the time of the First Men by Garth Greenhand, the first King of the Reach, who was said to have the ability to make the land bloom.</p>
+   						</a>
+              <a href="#" class="list-group-item">
+   							<h4 class="list-group-item-heading">Principality of Dorne</h4>
+   							<p class="list-group-item-text">The Principality of Dorne was an independent principality in Westeros. It was founded during the Nymeria's War by Mors Martell and Nymeria. During the War of Conquest, the Principality of Dorne remained unconquered and independent of the Targaryens.</p>
+   						</a>
+   					</div><!-- list-group -->
+
       </div>
       <!-- end container -->
+
+
+
+
+
       <footer>
          <div class="container">
          <div class="row">
@@ -260,13 +343,15 @@
          <!-- end col-sm-2 -->
       </footer>
       <!-- All Javascript at the bottom of the page for faster page loading -->
-      <!-- Custom JS -->
-      <script src="./includes/js/script.js"></script>
-      <!-- First try for the online version of jQuery-->
+            <!-- First try for the online version of jQuery-->
+            <!-- Include Modernizr in the head, before any other Javascript -->
+            <script src="includes/js/modernizr-2.6.2.min.js"></script>
       <script src="http://code.jquery.com/jquery.js"></script>
       <!-- If no online access, fallback to our hardcoded version of jQuery -->
       <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
       <!-- Bootstrap JS -->
       <script src="bootstrap/js/bootstrap.min.js"></script>
+      <!-- Custom JS -->
+      <script src="./includes/js/script.js"></script>
    </body>
 </html>
