@@ -36,6 +36,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
   background-image: url('../../images/GOT_BG.png');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .well .page-header {
@@ -67,6 +69,8 @@ ul.unstyled {
 
 .navbar-fixed-top{
  background-image: url('../../images/GOT_Header.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
  height:150px;
 
 }
